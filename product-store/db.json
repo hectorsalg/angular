@@ -29,6 +29,16 @@
       "id": "68e9",
       "title": "Camiseta",
       "price": 70
+    },
+    {
+      "id": "c25e",
+      "title": "Blusa",
+      "price": 50
+    },
+    {
+      "id": "5a96",
+      "title": "Moletom",
+      "price": 210
     }
   ]
 }
