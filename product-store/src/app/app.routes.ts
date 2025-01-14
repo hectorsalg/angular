@@ -5,6 +5,13 @@ import { inject } from '@angular/core';
 
 export const routes: Routes = [{
     path: '',
+    resolve: {
+        products: () => {
+            const productsService = inject(ProductsService);
+
+            return productsService.getAll();
+        },
+    },
     component: ListComponent,
 },
 {
