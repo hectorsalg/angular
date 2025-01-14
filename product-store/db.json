@@ -1,3 +1,14 @@
 {
-  "products": []
+  "products": [
+    {
+      "id": "1233",
+      "title": "Mochila",
+      "price": 140
+    },
+    {
+      "id": "54db",
+      "title": "Camiseta",
+      "price": 90
+    }
+  ]
 }
