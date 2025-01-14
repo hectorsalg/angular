@@ -8,12 +8,13 @@ import { Product } from '../../../../shared/interfaces/product.interface';
   standalone: true,
   imports: [MatCardModule, MatButtonModule],
   templateUrl: './card.component.html',
-  styleUrl: './card.component.scss'
+  styleUrl: './card.component.scss',
 })
 export class CardComponent {
   product = input.required<Product>();
 
   @Output() edit = new EventEmitter();
+  @Output() delete = new EventEmitter();
 
   productTitle = computed(() => this.product().title);
   productPrice = computed(() => this.product().price);
@@ -22,4 +23,7 @@ export class CardComponent {
     this.edit.emit();
   }
 
+  onDelete() {
+    this.delete.emit();
+  }
 }
