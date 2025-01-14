@@ -19,6 +19,16 @@
       "id": "2ac9",
       "title": "Produto pelo Post",
       "price": 1
+    },
+    {
+      "id": "4eca",
+      "title": "Sapato",
+      "price": 125
+    },
+    {
+      "id": "68e9",
+      "title": "Camiseta",
+      "price": 70
     }
   ]
 }
