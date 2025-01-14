@@ -5,14 +5,6 @@
 
 .form-content-container {
     width: 100%;
-    max-width: 550px;
     display: flex;
     flex-direction: column;
-}
-
-.form-input {
-    input {
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
 }

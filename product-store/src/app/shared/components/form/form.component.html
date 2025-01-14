@@ -1,6 +1,6 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-container">
   <div class="form-content-container">
-    <mat-form-field class="form-input">
+    <mat-form-field>
       <mat-label>Título</mat-label>
       <input
         type="text"
@@ -8,6 +8,9 @@
         formControlName="title"
         placeholder="Título"
       />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Preço</mat-label>
       <input
         type="number"
         matInput
