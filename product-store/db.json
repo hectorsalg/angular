@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "title": "Product 1 Editado",
+      "title": "Product 1 Editado 2",
       "price": 100,
       "id": "1"
     },
@@ -39,6 +39,11 @@
       "id": "5a96",
       "title": "Moletom",
       "price": 210
+    },
+    {
+      "id": "0181",
+      "title": "Criando Novo Produto",
+      "price": 10
     }
   ]
 }
