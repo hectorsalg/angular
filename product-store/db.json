@@ -1,29 +1,3 @@
 {
-  "products": [
-    {
-      "id": "4eca",
-      "title": "Sapato",
-      "price": 125
-    },
-    {
-      "id": "68e9",
-      "title": "Camiseta",
-      "price": 70
-    },
-    {
-      "id": "c25e",
-      "title": "Blusa",
-      "price": 50
-    },
-    {
-      "id": "5a96",
-      "title": "Moletom",
-      "price": 210
-    },
-    {
-      "id": "0181",
-      "title": "Criando Novo Produto",
-      "price": 10
-    }
-  ]
+  "products": []
 }
