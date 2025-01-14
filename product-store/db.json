@@ -1,9 +1,9 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "Product 1",
-      "price": 100
+      "title": "Product 1 Editado",
+      "price": 100,
+      "id": "1"
     },
     {
       "id": "2",
